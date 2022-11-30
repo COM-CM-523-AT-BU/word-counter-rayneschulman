@@ -16,6 +16,8 @@ function countWords() {
   for (let i = 0; i < words.length; i++){
     if (words[i] == ''){
       totalWords = numWords - 1;
+    }else{
+      totalWords = numWords
     }
   }
   printData(totalWords, wordCount)
